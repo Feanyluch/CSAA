@@ -23,7 +23,7 @@ export default function Navbar() {
                 height={60}
                 className="w-12 h-12"
               /> */}
-              <span className="hidden md:block text-lg font-semibold text-[#FF8F03]">Computer Science Academy Africa</span>
+              <span className="hidden md:block text-lg font-semibold text-gray-700">Computer Science Academy Africa</span>
             </Link>
           </div>
 

@@ -96,7 +96,7 @@ export default function Home() {
               <h2 className="text-6xl font-black text-[#356795]/10 uppercase mb-4">Contact</h2>
               <p className="text-2xl text-[#356795] font-semibold -mt-8 mb-8">Get in Touch</p>
               <p className="text-xl text-gray-600 mb-8">
-                Have questions about our programs? We'd love to hear from you.
+                Have questions about our programs? We&apos;d love to hear from you.
               </p>
               <div className="space-y-4">
                 {[
