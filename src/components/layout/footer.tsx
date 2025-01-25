@@ -8,20 +8,20 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2">
             <h3 className="text-xl font-bold mb-4">Computer Science Academy Africa</h3>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-300 mb-4">
               Empowering young Africans with quality computing skills and computer science education.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-primary/80">
+              <Link href="#" className="text-gray-300 hover:text-primary/80">
                 <Twitter className="h-6 w-6" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary/80">
+              <Link href="#" className="text-gray-300 hover:text-primary/80">
                 <Linkedin className="h-6 w-6" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary/80">
+              <Link href="#" className="text-gray-300 hover:text-primary/80">
                 <Facebook className="h-6 w-6" />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary/80">
+              <Link href="#" className="text-gray-300 hover:text-primary/80">
                 <Youtube className="h-6 w-6" />
               </Link>
             </div>
@@ -31,22 +31,22 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-gray-400 hover:text-primary/80">
+                <Link href="/about" className="text-gray-300 hover:text-primary/80">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/team" className="text-gray-400 hover:text-primary/80">
+                <Link href="/team" className="text-gray-300 hover:text-primary/80">
                   Our Team
                 </Link>
               </li>
               <li>
-                <Link href="/workshops" className="text-gray-400 hover:text-primary/80">
+                <Link href="/workshops" className="text-gray-300 hover:text-primary/80">
                   Workshops
                 </Link>
               </li>
               <li>
-                <Link href="/activities" className="text-gray-400 hover:text-primary/80">
+                <Link href="/activities" className="text-gray-300 hover:text-primary/80">
                   Activities
                 </Link>
               </li>
@@ -55,7 +55,7 @@ export default function Footer() {
 
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
-            <ul className="space-y-2 text-gray-400">
+            <ul className="space-y-2 text-gray-300">
               <li>Email: contact@csafrica.org</li>
               <li>University of Glasgow</li>
               <li>School of Computing Science</li>
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-300">
           <p>&copy; {new Date().getFullYear()} CSA Africa. All rights reserved.</p>
         </div>
       </div>
