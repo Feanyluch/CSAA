@@ -80,7 +80,7 @@ export function DynamicHero() {
             Get Started
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
-          <Button className="border-white text-white hover:bg-white/10">
+          <Button className="border-white text-white hover:bg-white/10 bg-white/30">
             Learn More
           </Button>
         </div>
